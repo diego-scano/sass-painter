@@ -27,7 +27,7 @@ header .header-bottom {
   justify-content: center;
 }
 header .header-bottom li {
-  margin: 0 25px;
+  margin: 0 20px;
 }
 header ul {
   display: flex;
@@ -39,7 +39,6 @@ header ul li {
 
 .jumbotron {
   background-image: url("../img/hero-pe-8.jpg");
-  background-repeat: repeat-x;
   background-position: top;
   height: 450px;
 }
@@ -114,4 +113,78 @@ header ul li {
 .jumbotron-internal-right div:first-child div:nth-child(2) {
   color: grey;
   font-size: 0.9em;
+}
+
+.sub-navbar {
+  background-color: lightgrey;
+}
+.sub-navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 20px 0;
+}
+.sub-navbar ul li {
+  margin: 0 30px;
+  font-size: 1.1em;
+}
+
+.section-top {
+  background-image: url("../img/intro-top.jpg");
+}
+.section-top-content {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section-top h1 {
+  padding: 100px 0 10px 0;
+  font-size: 2.5em;
+}
+
+.fishes {
+  background-image: url("../img/intro-bg.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fishes i {
+  font-size: 15em;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.symbols {
+  background-image: url("../img/flow-icons-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.symbols-sub {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.symbols-sub div {
+  text-align: center;
+}
+.symbols-sub div .symbol-description {
+  margin-top: 20px;
+}
+.symbols-sub div .symbol-description h1 {
+  font-size: 2em;
+}
+.symbols-sub div .symbol-description p {
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+.symbols-sub div img {
+  width: 200px;
 }
