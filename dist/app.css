@@ -1,0 +1,110 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px 80px;
+}
+header .header-top {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+header .header-top i {
+  color: #009cff;
+}
+header .header-top li {
+  margin: 0 10px;
+}
+header .header-bottom {
+  display: flex;
+  justify-content: center;
+}
+header .header-bottom li {
+  margin: 0 25px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  display: inline-block;
+}
+
+.jumbotron {
+  background-image: url("../img/hero-pe-8.jpg");
+  background-repeat: repeat-x;
+  background-position: top;
+  height: 450px;
+}
+.jumbotron-internal {
+  margin-left: 400px;
+  height: 100%;
+  display: flex;
+}
+.jumbotron-internal ul {
+  list-style: none;
+  margin: 20px 0;
+}
+.jumbotron-internal ul li {
+  margin: 10px 0;
+}
+.jumbotron-internal ul li:before {
+  content: "";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: grey;
+}
+.jumbotron-internal-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 45%;
+}
+.jumbotron-internal-center h2 span {
+  font-style: italic;
+  color: #b93bb5;
+}
+.jumbotron-internal-center .download-trial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  width: 250px;
+  padding: 10px;
+  cursor: pointer;
+}
+.jumbotron-internal-right {
+  height: 95%;
+  width: 45%;
+  background-color: black;
+  color: white;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px 0 20px;
+}
+.jumbotron-internal-right .buy-button {
+  background-color: #009cff;
+  padding: 5px 40px;
+  cursor: pointer;
+}
+.jumbotron-internal-right div:first-child {
+  margin-top: 15px;
+}
+.jumbotron-internal-right div:first-child div {
+  margin-bottom: 20px;
+}
+.jumbotron-internal-right div:first-child div:first-child {
+  font-size: 1.5em;
+}
+.jumbotron-internal-right div:first-child div:nth-child(2) {
+  color: grey;
+}
