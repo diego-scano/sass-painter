@@ -98,6 +98,14 @@ header {
         width: 250px;
         padding: 10px;
         cursor: pointer;
+
+        i {
+          font-size: 2em;
+        }
+
+        span:nth-of-type(2) {
+          font-size: .9em;
+        }
       }
     }
 
@@ -130,6 +138,7 @@ header {
 
         div:nth-child(2) {
           color: grey;
+          font-size: .9em;
         }
       }
     }

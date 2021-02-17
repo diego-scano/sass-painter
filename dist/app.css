@@ -81,6 +81,12 @@ header ul li {
   padding: 10px;
   cursor: pointer;
 }
+.jumbotron-internal-center .download-trial i {
+  font-size: 2em;
+}
+.jumbotron-internal-center .download-trial span:nth-of-type(2) {
+  font-size: 0.9em;
+}
 .jumbotron-internal-right {
   height: 95%;
   width: 45%;
@@ -107,4 +113,5 @@ header ul li {
 }
 .jumbotron-internal-right div:first-child div:nth-child(2) {
   color: grey;
+  font-size: 0.9em;
 }
